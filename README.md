@@ -43,7 +43,7 @@ This violin plot shows the distribution of passengers' ages by class and surviva
 ---
 
 ### 2. Cumulative Feature Importance (Top 20) / 累積特徴量重要度（上位20）
-![Cumulative Feature Importance](cumulative_importance.png)  
+![Cumulative Feature Importance](cumulative_feature_importance.png)  
 The plot displays cumulative feature importance from the trained model, highlighting the top 20 features that contribute most to prediction.  
 学習済みモデルの累積特徴量重要度のグラフ。上位20の特徴量が予測に与える影響を示しています。
 
