@@ -36,7 +36,7 @@ It includes data preprocessing, feature engineering, model training, hyperparame
 
 ### Violin Plots showing Age distribution by Pclass and Sex, separated by Survival status
 
-![Violin Plot](images/violin.png)
+![Violin Plot](images/violin)
 ---
 
 ## 📁 Files / ファイル構成
