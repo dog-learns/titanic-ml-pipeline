@@ -80,3 +80,4 @@ It includes data preprocessing, feature engineering, model training, hyperparame
 GitHub: [dog-learns]  
 Feel free to star ⭐ this repo or leave feedback!  
 お気軽にStarやご意見をお寄せください😊
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dog-learns/titanic-ml-pipeline/blob/main/titanic_ml_pipeline.ipynb)
