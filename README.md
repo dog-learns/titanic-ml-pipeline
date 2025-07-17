@@ -32,7 +32,11 @@ It includes data preprocessing, feature engineering, model training, hyperparame
 - ROC AUC (CV): **87.4%**  
 - SHAP analysis shows strongest contributions from XGBoost and RandomForest  
 - SHAP解析では、XGBoostとRandomForestが最も大きな貢献をしていることが分かりました
+## 🎻 Data Visualization / 可視化
 
+### Violin Plots showing Age distribution by Pclass and Sex, separated by Survival status
+
+![Violin Plot](images/violin.png)
 ---
 
 ## 📁 Files / ファイル構成
