@@ -32,11 +32,34 @@ It includes data preprocessing, feature engineering, model training, hyperparame
 - ROC AUC (CV): **87.4%**  
 - SHAP analysis shows strongest contributions from XGBoost and RandomForest  
 - SHAP解析では、XGBoostとRandomForestが最も大きな貢献をしていることが分かりました
-## 🎻 Data Visualization / 可視化
+  
+## Visualization Examples / 可視化例
 
-### Violin Plots showing Age distribution by Pclass and Sex, separated by Survival status
+### 1. Violin Plot: Age, Pclass and Survival / バイオリンプロット：年齢・客室クラスと生存率
+![Violin Plot](images/violin.png)  
+This violin plot shows the distribution of passengers' ages by class and survival status.  
+乗客の年齢分布を客室クラスと生存の有無で示したバイオリンプロットです。
 
-![Violin Plot](violin.png)
+---
+
+### 2. Cumulative Feature Importance (Top 20) / 累積特徴量重要度（上位20）
+![Cumulative Feature Importance](images/cumulative_importance.png)  
+The plot displays cumulative feature importance from the trained model, highlighting the top 20 features that contribute most to prediction.  
+学習済みモデルの累積特徴量重要度のグラフ。上位20の特徴量が予測に与える影響を示しています。
+
+---
+
+### 3. SHAP Summary Plot for Meta-Model / メタモデルのSHAPサマリープロット
+![SHAP Summary Plot](images/shap_summary.png)  
+This SHAP summary plot explains the contribution of each base model's prediction to the final stacked ensemble prediction.  
+スタッキングモデルの各ベースモデルの予測が最終判定にどれだけ影響しているかを示すSHAPサマリープロットです。
+ng)
+
+You can run this notebook directly on Google Colab by clicking the button below:  
+（下のボタンをクリックしてGoogle Colabで直接実行できます）  
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dog-learns/titanic-ml-pipeline/blob/main/titanic_ml_pipeline.ipynb)
+
 ---
 
 ## 📁 Files / ファイル構成
@@ -84,4 +107,3 @@ It includes data preprocessing, feature engineering, model training, hyperparame
 GitHub: [dog-learns]  
 Feel free to star ⭐ this repo or leave feedback!  
 お気軽にStarやご意見をお寄せください😊
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dog-learns/titanic-ml-pipeline/blob/main/titanic_ml_pipeline.ipynb)
