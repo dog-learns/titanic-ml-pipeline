@@ -53,7 +53,6 @@ The plot displays cumulative feature importance from the trained model, highligh
 ![SHAP Summary Plot](shap_summary.png)  
 This SHAP summary plot explains the contribution of each base model's prediction to the final stacked ensemble prediction.  
 スタッキングモデルの各ベースモデルの予測が最終判定にどれだけ影響しているかを示すSHAPサマリープロットです。
-ng)
 
 You can run this notebook directly on Google Colab by clicking the button below:  
 （下のボタンをクリックしてGoogle Colabで直接実行できます）  
@@ -64,7 +63,7 @@ You can run this notebook directly on Google Colab by clicking the button below:
 
 ## 📁 Files / ファイル構成
 
-- `Taitanic_ml_pipline.ipynb`  
+- `Titanic_ml_pipline.ipynb`  
 　Main notebook with code and bilingual (EN/JP) explanation  
 　コードと英語＋日本語の解説付きノートブック
 
